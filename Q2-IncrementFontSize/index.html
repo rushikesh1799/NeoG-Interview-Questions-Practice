@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Font Size Increment</title>
+</head>
+
+<style>
+    body,
+    html {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        height: 100vh;
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+    #text {
+        padding: 50px;
+    }
+
+    .btns {
+        
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .btn {
+        padding: 5px 20px;
+        font-size: 1rem;
+        margin: 10px;
+    }
+
+</style>
+
+<body>
+    <div class="container">
+        <div id="text">Hi My name is Rushi.</div>
+        <div class="output"></div>
+    </div>
+    <div class="btns">
+        <button class="btn" id="increase-btn">Increase</button>
+        <button class="btn" id="decrease-btn">Decrease</button>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+
+</html>

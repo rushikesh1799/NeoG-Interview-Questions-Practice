@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loading Button</title>
+</head>
+
+<style>
+    body,
+    html {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        height: 100vh;
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .container {
+        display: block;
+    }
+
+    #text {
+        display: block;
+    }
+
+    #load-button {
+        position: relative;
+    }
+</style>
+
+<body>
+    <div class="container">
+        <p id="text">Loading...</p>
+        <button id="load-button">Loaded</button>
+    </div>
+
+
+    <script src="index.js"></script>
+</body>
+
+</html>

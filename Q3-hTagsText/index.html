@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>h Tags Texts</title>
+</head>
+<style>
+    body, html {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        height: 100vh;
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    .inputs {
+        width: 200px;
+        margin: 25px;
+        padding: 5px;
+        border-radius: 10px;
+        font-size: large;
+    }
+
+    .btn-container {
+        margin: 15px;
+    }
+
+    .btns {
+        padding: 10px;
+        margin: 10px;
+    }
+
+    .output {
+        margin-top: 50px;
+    }
+
+</style>
+<body>
+    <h2>h1, h2 and h3 Headings</h2>
+    <div class="container">
+        <input type="text" id="input-one" class="inputs"></input>
+    </div>
+
+    <div class="btn-container">
+        <button class="btns" id="make-h1">H1</button>
+        <button class="btns" id="make-h2">H2</button>
+        <button class="btns" id="make-h3">H3</button>
+    </div>
+
+    <div class="output"></div>
+    <script src="index.js"></script>
+</body>
+
+</html>
